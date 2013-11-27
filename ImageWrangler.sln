@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ImageWrangler", "ImageWrangler\ImageWrangler.fsproj", "{4785CDB2-FE6F-4452-9185-71F86DBCBF22}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ImageWrangler.Test", "ImageWrangler.Test\ImageWrangler.Test.fsproj", "{96FE51BF-EE00-4DB0-86EE-8074E3B8D26A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4785CDB2-FE6F-4452-9185-71F86DBCBF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4785CDB2-FE6F-4452-9185-71F86DBCBF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4785CDB2-FE6F-4452-9185-71F86DBCBF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96FE51BF-EE00-4DB0-86EE-8074E3B8D26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FE51BF-EE00-4DB0-86EE-8074E3B8D26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FE51BF-EE00-4DB0-86EE-8074E3B8D26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FE51BF-EE00-4DB0-86EE-8074E3B8D26A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
