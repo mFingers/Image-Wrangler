@@ -1,10 +1,11 @@
 ﻿open OrganizeFiles
+open System.Configuration
 
 module Program =
   [<EntryPoint>]
   let main args =
-    let destination = """C:\_EXTERNAL_DRIVE\_Camera2"""
+    let sourceDir = ConfigurationManager.AppSettings.Get("sourceDirectory")
+    let destDir = ConfigurationManager.AppSettings.Get("destinationDirectory")
 
-    moveFrom """C:\Users\Mike\Pictures\To Network\104___09"""  destination
-//    moveFrom """C:\_EXTERNAL_DRIVE\Camera"""
+    moveFrom sourceDir  destDir
     0

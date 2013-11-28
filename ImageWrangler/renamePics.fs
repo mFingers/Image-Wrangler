@@ -36,10 +36,6 @@ let getNewFilename newFilePath =
     else
       file
 
-//      let fileDir = Path.GetDirectoryName(file)
-//      let nextFile = Path.GetFileNameWithoutExtension(file) + "-" + n.ToString() + Path.GetExtension(file)
-//      loop (Path.Combine(fileDir, nextFile)) (n+1)
-
   loop newFilePath 2
 
 let move destinationRoot files =
