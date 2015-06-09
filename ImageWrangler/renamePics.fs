@@ -54,6 +54,6 @@ let move destinationRoot files =
 
 let moveFrom source destination =
   Directory.EnumerateFiles(source, "*", SearchOption.AllDirectories)
-    |> Seq.filter (fun f -> Path.GetExtension(f).ToLower() <> ".db")  //exlcude the thumbs.db files
+    |> Seq.filter (fun f -> Path.GetExtension(f).ToLower() <> ".db" && Path.GetExtension(f).ToLower() <> ".ini" )  //exlcude the thumbs.db files
     |> move destination
   printfn "Done"
